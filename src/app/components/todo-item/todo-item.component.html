@@ -1,0 +1,6 @@
+<div class="todoWrapper">
+  <button class="fa fa-thumbs-up" (click)="onLikeTrigger()">Like {{getNoOfLikes()}}</button>
+  <span style="color: dodgerblue">{{todo.text}} </span>
+  <span style="float: right; color: cadetblue">{{todo.date | date :'MMM d, y, h:mm:ss a'}} </span>
+<!--  <button class="removeTodo" (click)="removeTodo()">remove</button>-->
+</div>
